@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "syriuszp",
+    "baseName": "jhipsterTestApplication",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8082,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.8.2",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "2a38c85c07f93c2ddffc8d7f57b73fb81b50bec7",
+    "jhiPrefix": "jhi"
+  }
+}
